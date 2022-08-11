@@ -23,6 +23,11 @@
 
   <build>
 	<finalName>pets-app</finalName>
+	      <properties>
+        <project.java.version>11</project.java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
    <plugins>
    <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
